@@ -1,0 +1,7 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "supply": 10
+  },
+  "id": 1
+}

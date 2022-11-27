@@ -1,0 +1,7 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "stake": 10
+  },
+  "id": 1
+}

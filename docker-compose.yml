@@ -1,0 +1,49 @@
+version: "3.5"
+
+services:
+  traefik:
+    image: traefik:1.7-alpine
+    command:
+      - "--logLevel=INFO"
+      - "--defaultentrypoints=http"
+      - "--docker"
+      - "--docker.exposedbydefault=false"
+      - "--docker.domain=avaxnodes.com"
+      - "--docker.domain=test.avaxnodes.com"
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    restart: always
+
+  test-avaxnodes:
+    container_name: test-avaxnodes
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - ENV_FILE=.test.env
+    restart: always
+    labels:
+      - "traefik.enable=true"
+      - "traefik.backend=test-avaxnodes"
+      - "traefik.frontend.rule=Host:test.avaxnodes.com"
+    ports:
+      - "7600:3000"
+
+  avaxnodes:
+    container_name: avaxnodes
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - ENV_FILE=.env
+    restart: always
+    labels:
+      - "traefik.enable=true"
+      - "traefik.backend=avaxnodes"
+      - "traefik.frontend.rule=Host:avaxnodes.com"
+    ports:
+      - "7601:3000"

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>97AA9776-FFB7-46A4-BF13-74E52E28DB3B</title>
+    <defs>
+        <linearGradient x1="47.6%" y1="38.2222222%" x2="55.475%" y2="60.4305556%" id="linearGradient-1">
+            <stop stop-color="#FEDE00" offset="0%"></stop>
+            <stop stop-color="#FFD000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="47.6%" y1="38.2222222%" x2="55.475%" y2="60.4305556%" id="linearGradient-2">
+            <stop stop-color="#E5A505" offset="0%"></stop>
+            <stop stop-color="#EAA804" offset="11.6%"></stop>
+            <stop stop-color="#F8B301" offset="59.5%"></stop>
+            <stop stop-color="#FDB700" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="22.7458333%" y1="36.3729167%" x2="77.85%" y2="63.925%" id="linearGradient-3">
+            <stop stop-color="#FEDE00" offset="0%"></stop>
+            <stop stop-color="#FFD000" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Visuals" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Notifier" transform="translate(-957.000000, -2181.000000)" fill-rule="nonzero">
+            <g id="Group-3" transform="translate(150.000000, 2032.000000)">
+                <g id="Group-6-Copy-2" transform="translate(780.000000, 122.000000)">
+                    <g id="icons8-stack_of_coins" transform="translate(27.000000, 27.000000)">
+                        <path d="M40,26 L16,26 C16,26.702 16,29.298 16,30 C16,33.314 21.373,36 28,36 C34.627,36 40,33.314 40,30 C40,29.298 40,26.702 40,26 Z" id="Path" fill="url(#linearGradient-1)"></path>
+                        <path d="M40,22 L16,22 C16,22.702 16,25.298 16,26 C16,29.314 21.373,32 28,32 C34.627,32 40,29.314 40,26 C40,25.298 40,22.702 40,22 Z" id="Path" fill="url(#linearGradient-2)"></path>
+                        <path d="M40,18 L16,18 C16,18.702 16,21.298 16,22 C16,25.314 21.373,28 28,28 C34.627,28 40,25.314 40,22 C40,21.298 40,18.702 40,18 Z" id="Path" fill="url(#linearGradient-1)"></path>
+                        <path d="M40,14 L16,14 C16,14.702 16,17.298 16,18 C16,21.314 21.373,24 28,24 C34.627,24 40,21.314 40,18 C40,17.298 40,14.702 40,14 Z" id="Path" fill="url(#linearGradient-2)"></path>
+                        <path d="M40,10 L16,10 C16,10.702 16,13.298 16,14 C16,17.314 21.373,20 28,20 C34.627,20 40,17.314 40,14 C40,13.298 40,10.702 40,10 Z" id="Path" fill="url(#linearGradient-1)"></path>
+                        <path d="M40,6 L16,6 C16,6.702 16,9.298 16,10 C16,13.314 21.373,16 28,16 C34.627,16 40,13.314 40,10 C40,9.298 40,6.702 40,6 Z" id="Path" fill="url(#linearGradient-2)"></path>
+                        <ellipse id="Oval" fill="url(#linearGradient-3)" cx="28" cy="6" rx="12" ry="6"></ellipse>
+                        <ellipse id="Oval" fill="#FFC800" cx="28" cy="6" rx="9" ry="4"></ellipse>
+                        <path d="M16,14.312 C16,21.08 16,29.574 16,30 C16,32.908 20.137,35.331 25.628,35.882 C25.863,35.281 26,34.654 26,34 L26,22 C26,18.241 21.907,15.249 16,14.312 Z" id="Path" fill="#000000" opacity="0.05"></path>
+                        <path d="M16,15.328 C16,21.9 16,29.595 16,30 C16,32.721 19.625,35.015 24.59,35.751 C24.848,35.192 25,34.608 25,34 L25,22 C25,18.83 21.273,16.217 16,15.328 Z" id="Path" fill="#000000" opacity="0.07"></path>
+                        <path d="M24,30 L0,30 C0,30.702 0,33.298 0,34 C0,37.314 5.373,40 12,40 C18.627,40 24,37.314 24,34 C24,33.298 24,30.702 24,30 Z" id="Path" fill="url(#linearGradient-2)"></path>
+                        <path d="M24,26 L0,26 C0,26.702 0,29.298 0,30 C0,33.314 5.373,36 12,36 C18.627,36 24,33.314 24,30 C24,29.298 24,26.702 24,26 Z" id="Path" fill="url(#linearGradient-1)"></path>
+                        <path d="M24,22 L0,22 C0,22.702 0,25.298 0,26 C0,29.314 5.373,32 12,32 C18.627,32 24,29.314 24,26 C24,25.298 24,22.702 24,22 Z" id="Path" fill="url(#linearGradient-2)"></path>
+                        <ellipse id="Oval" fill="url(#linearGradient-3)" cx="12" cy="22" rx="12" ry="6"></ellipse>
+                        <ellipse id="Oval" fill="#FFC800" cx="12" cy="22" rx="9" ry="4"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
